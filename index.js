@@ -2,7 +2,7 @@ import express from 'express'
 const app = express ()
 const PORT = process.env.PORT   ?? 8080
 app.get('/', (req, res) => {
-return res.json({msg: 'Hello this node js application run by cicd'})
+return res.json({msg: 'Hello this node js application run by CICD'})
 })
  
 app.listen(PORT, () => {
